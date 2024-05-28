@@ -38,7 +38,7 @@ export default function ShareMealPage() {
               rows="10"
               required></textarea>
           </p>
-          <ImagePicker label="Image Picker" />
+          <ImagePicker />
           <p className={classes.actions}>
             <button type="submit">Share Meal</button>
           </p>
