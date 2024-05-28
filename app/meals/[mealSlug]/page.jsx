@@ -5,7 +5,6 @@ import { notFound } from "next/navigation";
 
 export default function MealDetailsPage({ params }) {
   const meal = getMeal(params.mealSlug);
-  console.log("meal: ", meal);
   if (!meal) {
     notFound();
   }
